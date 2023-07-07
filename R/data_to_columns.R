@@ -8,6 +8,23 @@
 
 # ------------------------------------------------------------------------------------------------ #
 
+# Arguments #
+
+# ------------------------------------------------------------------------------------------------ #
+
+#' @param dir_csv Directory when the csv resulting from sim_spp_test function
+
+#' @return A list with two files: 1) data = Same dataframe but with two columns from the two species tested, and 2) a new_data = new dataframe as data but including the species comparisons with itselfs for matrix visualization or phhylogenetic analysis.
+
+#' @examples
+#'
+#' dir_csv <- "D/example/result"
+#'
+#' data_to_columns <- function(dir_csv)
+#'
+
+# ------------------------------------------------------------------------------------------------ #
+
 # Convert into different formats #
 
 # ------------------------------------------------------------------------------------------------ #
@@ -29,22 +46,6 @@ data_to_columns <- function(dir_csv) {
   return(result)
 }
 
-# ------------------------------------------------------------------------------------------------ #
-
-# Arguments #
-
-# ------------------------------------------------------------------------------------------------ #
-
-#' @param dir_csv Directory when the csv resulting from sim_spp_test function
-
-#' @return A list with two files: 1) data = Same dataframe but with two columns from the two species tested, and 2) a new_data = new dataframe as data but including the species comparisons with itselfs for matrix visualization or phhylogenetic analysis.
-
-#' @examples
-#'
-#' dir_csv <- "D/example/result"
-#'
-#' data_to_columns <- function(dir_csv)
-#'
 # ------------------------------------------------------------------------------------------------ #
 
 ### EndNotRun
