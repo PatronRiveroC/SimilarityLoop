@@ -20,6 +20,7 @@ library(patchwork)
 library(devtools)
 install_github("PatronRiveroC/SimilarityLoop")
 ```
-Cite:
+# Citation
+
 Patrón-Rivero, C., Rojas-Soto, O., Chiappa-Carrara, X., Guevara, L & Yañez-Arenas, C. (2023). Evaluating Porthidium’s ecological niches and phylogenetic relationships: an approach to understanding intra and interspecific variation. [Unpublished manuscript].
 
