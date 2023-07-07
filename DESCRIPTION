@@ -1,0 +1,21 @@
+Package: SimilarityLoop
+Type: Package
+Title: SimilarityLoop
+Version: 0.1.0
+Author: Patrón-Rivero, C
+Maintainer: The package maintainer <c.patron.rivero@gmail.com>
+Description: The package is created to aim a multiple species analysis and not only one by one species. The final outputs are a series of plots of Schoener’s D value and Hellinger’s I value. And additionally, the values of D and I with its respective p value.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  sp,
+  terra,
+  raster,
+  dismo,
+  ENMTools,
+  ecospat,
+  gtools,
+  sf,
+  ggplot2,
+  patchwork
